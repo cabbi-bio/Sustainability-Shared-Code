@@ -1,5 +1,5 @@
 ## GRIDMet
-#### Description
+### Description
 GRIDMET is a dataset of daily high-spatial resolution (~4-km, 1/24th degree) surface meteorological data covering the contiguous US from 1979-yesterday. We have also extended these data to cover southern British Columbia in our real time products. These data can provide important inputs for ecological, agricultural, and hydrological models. These data are updated daily.  gridMET is the preferred naming convention for these data; however, the data are also known as cited as METDATA.
 
 **Primary Climate Variables**
@@ -20,7 +20,7 @@ GRIDMET is a dataset of daily high-spatial resolution (~4-km, 1/24th degree) sur
 The files are in netCDF format
 
 *More information can be found from the Climatology Lab's Website, [https://www.climatologylab.org/gridmet.html]* 
-#### Access
+### Access
 
 Direct file downloads:
 1. [Direct download of NetCDF files](https://www.northwestknowledge.net/metdata/data/)
@@ -33,9 +33,9 @@ Data subsets can be accessed using the web tools:
 1. [ClimateEngine.org](https://app.climateengine.org/)
 2. [Geo Data Portal](https://cida.usgs.gov/gdp/client/#!catalog/gdp/dataset/54dd5df2e4b08de9379b38d8)
 
-#### Scripts
+### Scripts
 
-##### Convert_Gridmet_Daily_Data_to_IBIS.py
+**Convert_Gridmet_Daily_Data_to_IBIS.py**
 This is a python script created by Bryan Peterson from the VanLoocke Lab at Iowa State to convert the netCDF files for use into AgroIBIS. 
 
 **Modules Required**
