@@ -36,4 +36,25 @@ Data subsets can be accessed using the web tools:
 #### Scripts
 ##### AgroIBIS
 - Convert_Gridmet_Daily_Data_to_IBIS.py
-This is a python script created by Bryan Peterson from the VanLoocke Lab at Iowa State to convert the netCDF files
+This is a python script created by Bryan Peterson from the VanLoocke Lab at Iowa State to convert the netCDF files for use into AgroIBIS. 
+
+**Modules Required**
+* numpy
+* pandas
+* xarray
+* xesmf
+* netCDF4
+* os
+* glob
+
+**Data**
+You will need to download the GridMet data required and place it in a directory that the script can access.
+
+The folder structure in the script organizes the data by variable:
+* tmmn: Minimum Temperature
+* tmax: Maximum Temperature
+* prec: Precipitation
+* rads: Downward Surface Shortwave Radiation
+* relh: Maximum Relative Humidity
+* wspd: Wind Speed
+* low_relh: Minimum Relative Humidity
