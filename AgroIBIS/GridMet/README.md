@@ -34,8 +34,8 @@ Data subsets can be accessed using the web tools:
 2. [Geo Data Portal](https://cida.usgs.gov/gdp/client/#!catalog/gdp/dataset/54dd5df2e4b08de9379b38d8)
 
 #### Scripts
-##### AgroIBIS
-- Convert_Gridmet_Daily_Data_to_IBIS.py
+
+##### Convert_Gridmet_Daily_Data_to_IBIS.py
 This is a python script created by Bryan Peterson from the VanLoocke Lab at Iowa State to convert the netCDF files for use into AgroIBIS. 
 
 **Modules Required**
