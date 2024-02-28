@@ -41,9 +41,12 @@ for v in NWK_vars:
         os.makedirs(var_dir)
         
 # Location to put the AgroIBIS output data files
+output_dir = dir + 'Output'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 OPT_vars = ['tmmn','tmax','prec','rads','wspd','high_relh','low_relh','ave_relh']
 for v in OPT_vars:
-    var_dir = dir + 'Output' + delim + v
+    var_dir = output_dir + delim + v
     if not os.path.exists(var_dir):
         os.makedirs(var_dir)
 
