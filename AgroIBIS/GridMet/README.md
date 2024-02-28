@@ -33,29 +33,33 @@ Data subsets can be accessed using the web tools:
 1. [ClimateEngine.org](https://app.climateengine.org/)
 2. [Geo Data Portal](https://cida.usgs.gov/gdp/client/#!catalog/gdp/dataset/54dd5df2e4b08de9379b38d8)
 
+*For data formatted for AgroIBIS see the gridMetAgroIBIS.py script below*
+
 ### Scripts
 
-**Convert_Gridmet_Daily_Data_to_IBIS.py**
+####gridMetAgroIBIS.py
 
-This is a python script created by [Bryan Peterson](bryan20@iastate.edu) from the VanLoocke Lab at Iowa State to convert the netCDF files for use into AgroIBIS. 
+This is a Python 3 script modified from a script provided by [Bryan Peterson](bryan20@iastate.edu) from the VanLoocke Lab at Iowa State to download the GridMet data required to run AgroIBIS. It downloads the data from the 
+[University of Idaho](https://www.northwestknowledge.net/metdata/data/). It allows users to customize what years they want to download and also the spatial dimension of interest (a bounding box with a North/South latitude and West/East latitude).
 
 **Modules Required**
-* numpy
-* pandas
-* xarray
-* xesmf
-* netCDF4
 * os
-* glob
+* sys
+* wget
+* xarray
+* netCDF4
 
-**Data**
-You will need to download the GridMet data required and place it in a directory that the script can access.
+**How to Use**
 
-The folder structure in the script organizes the data by variable:
-* tmmn: Minimum Temperature
-* tmax: Maximum Temperature
-* prec: Precipitation
-* rads: Downward Surface Shortwave Radiation
-* relh: Maximum Relative Humidity
-* wspd: Wind Speed
-* low_relh: Minimum Relative Humidity
+1. Ensure all the needed modules are downloaded. [Anaconda](https://www.anaconda.com/download) or [PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/) are good tools to use for this.
+2. Download the [gridMetAgroIBIS.py](https://github.com/cabbi-bio/Sustainability-Shared-Code/blob/main/AgroIBIS/GridMet/gridMetAgroIBIS.py) script
+3. Open the script and find the "Inputs to change" section
+4. Change syr to the first year you need
+5. Change eyr to the last year you need
+6. Change latN, latS, lonW, lonE to the bounding box needed. All should be in decimal degrees. Latitude is in decimal degrees north and longitude is in decimal degrees east
+7. Change dir to the directory where you want to download the data
+8. Change delim to the slash needed for your system. If you're running this on Linux, you'll likely want to use '/', and if you're using Windows, it will likely be '\\'.
+9. The script will create other directories that are needed
+10. Only minimum temperature, maximum temperature, solar radiation, preciptiation, wind speed, minimum relative humidity and maximum relative humidity files are downloaded and processed. Average daily relative humidity will be calculated as well.
+11. The full downloaded files will be stored in the directory. After the script runs, you can delete them.
+12. The processed files will be in a directory called 'Output'.
