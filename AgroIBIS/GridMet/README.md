@@ -1,4 +1,4 @@
-## GRIDMet
+## GRIDMET
 ### Description
 GRIDMET is a dataset of daily high-spatial resolution (~4-km, 1/24th degree) surface meteorological data covering the contiguous US from 1979-yesterday. We have also extended these data to cover southern British Columbia in our real time products. These data can provide important inputs for ecological, agricultural, and hydrological models. These data are updated daily.  gridMET is the preferred naming convention for these data; however, the data are also known as cited as METDATA.
 
@@ -19,7 +19,7 @@ GRIDMET is a dataset of daily high-spatial resolution (~4-km, 1/24th degree) sur
 
 The files are in netCDF format
 
-*More information can be found from the Climatology Lab's Website, [https://www.climatologylab.org/gridmet.html]* 
+*More information can be found from the Climatology Lab's Website, https://www.climatologylab.org/gridmet.html* 
 ### Access
 
 Direct file downloads:
