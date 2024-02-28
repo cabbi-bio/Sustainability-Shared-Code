@@ -37,7 +37,7 @@ Data subsets can be accessed using the web tools:
 
 ### Scripts
 
-####gridMetAgroIBIS.py
+#### gridMetAgroIBIS.py
 
 This is a Python 3 script modified from a script provided by [Bryan Peterson](bryan20@iastate.edu) from the VanLoocke Lab at Iowa State to download the GridMet data required to run AgroIBIS. It downloads the data from the 
 [University of Idaho](https://www.northwestknowledge.net/metdata/data/). It allows users to customize what years they want to download and also the spatial dimension of interest (a bounding box with a North/South latitude and West/East latitude).
