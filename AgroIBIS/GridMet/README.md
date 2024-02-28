@@ -33,7 +33,7 @@ Data subsets can be accessed using the web tools:
 1. [ClimateEngine.org](https://app.climateengine.org/)
 2. [Geo Data Portal](https://cida.usgs.gov/gdp/client/#!catalog/gdp/dataset/54dd5df2e4b08de9379b38d8)
 
-*For data formatted for AgroIBIS see the gridMetAgroIBIS.py script below*
+*For data formatted for AgroIBIS, see the gridMetAgroIBIS.py script below*
 
 ### Scripts
 
