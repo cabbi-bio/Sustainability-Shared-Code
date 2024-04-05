@@ -13,7 +13,7 @@ syr = '2019' # First year to pull data. The first year in the dataset is 1979.
 eyr = '2020' # Last year to pull data. There is current data, but it is not finalized currently.
 dir = 'C:\\Users\\IGB\\Box\\Sustainability Hub\\GridMet Data Download\\' # Directory where all the files will be stored
 delim = '\\' # Customizable file/directory delimiter depending on the system you are running it on
-filename = 'DayCent_Locations.csv' # Comma-delimited file with the following columns: LocationName, Latitude, Longitude
+filename = 'DayCent_Locations_Example_File.csv' # Comma-delimited file with the following columns: LocationName, Latitude, Longitude
 
 # Open the DayCent Location File and put it in an array
 locationArray = np.loadtxt(filename, delimiter=',', dtype=str)
