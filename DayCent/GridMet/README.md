@@ -56,7 +56,7 @@ For questions regarding this script, contact [Leslie Stoecker](lensor@illinois.e
 
 1. Ensure all the needed modules are downloaded. [Anaconda](https://www.anaconda.com/download) or [PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/) are good tools to use for this.
 2. Download the [gridMetDayCent.py](https://github.com/cabbi-bio/Sustainability-Shared-Code/blob/main/DayCent/GridMet/gridMetDayCent.py) script
-3. If you have a list of locations (lat/lon coordinates) to download see [gridMetDayCentFileInput.py](#gridMetDayCentFileInput.py) below. Otherwise continue with remaining steps.
+3. If you have a list of locations (lat/lon coordinates) to download see [gridMetDayCentFileInput.py](#gridMetDayCentFileInputpy) below. Otherwise continue with remaining steps.
 4. Comment out (using a #) on line 16, and uncomment out lines 19-25 (remove the # at the start of the line)
 5. Change syr to the first year you need
 6. Change eyr to the last year you need
@@ -70,7 +70,7 @@ For questions regarding this script, contact [Leslie Stoecker](lensor@illinois.e
 
 #### gridMetDayCentFileInput.py
 
-This is a Python 3 script that is a wrapper for [gridDayCent.py](#gridDayCent.py). It takes a comma-delimited file of location names, latitudes and longitudes and processes GridMet data for each one and for the years specified. 
+This is a Python 3 script that is a wrapper for [gridDayCent.py](#gridDayCentpy). It takes a comma-delimited file of location names, latitudes and longitudes and processes GridMet data for each one and for the years specified. 
 For questions regarding this script, contact [Leslie Stoecker](lensor@illinois.edu).
 
 **Modules Required**
@@ -81,7 +81,7 @@ For questions regarding this script, contact [Leslie Stoecker](lensor@illinois.e
 
 **How to Use**
 
-1. Ensure all the needed modules for this script and for [gridDayCent.py](#gridDayCent.py) are installed. [Anaconda](https://www.anaconda.com/download) or [PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/) are good tools to use for this.
+1. Ensure all the needed modules for this script and for [gridDayCent.py](#gridDayCentpy) are installed. [Anaconda](https://www.anaconda.com/download) or [PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/) are good tools to use for this.
 2. Download the [gridMetDayCent.py](https://github.com/cabbi-bio/Sustainability-Shared-Code/blob/main/DayCent/GridMet/gridMetDayCent.py) and the script [gridMetDayCentFileInput.py](https://github.com/cabbi-bio/Sustainability-Shared-Code/blob/main/DayCent/GridMet/gridMetDayCentFileInput.py)
 3. Open gridMetDayCentFileInput.py and go to the Inputs to change section
 4. Change syr to the first year you need
