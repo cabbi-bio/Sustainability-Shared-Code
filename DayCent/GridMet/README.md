@@ -88,7 +88,7 @@ For questions regarding this script, contact [Leslie Stoecker](lensor@illinois.e
 5. Change eyr to the last year you need
 6. Change dir to the directory where you want to download the data
 7. Change delim to the slash needed for your system. If you're running this on Linux, you'll likely want to use '/', and if you're using Windows, it will likely be '\\'.
-8. Change filename to the name of your file that has the list of location names, latitudes and longitudes. See the example file in this directory.
+8. Change filename to the name of your file that has the list of location names, latitudes and longitudes. See the [example file](https://github.com/cabbi-bio/Sustainability-Shared-Code/blob/main/DayCent/GridMet/DayCent_Locations_Example_File.csv).
 9. Only minimum temperature, maximum temperature, solar radiation, preciptiation, wind speed, minimum relative humidity and maximum relative humidity files are downloaded and processed. Average daily relative humidity will be calculated as well.
 10. The full downloaded files will be stored in the directory. After the script runs, you can delete them.
 11. The formated text files will be in the original directory that you specified.
