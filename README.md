@@ -12,3 +12,6 @@ This repository will house scripts shared by Sustainability researchers to manip
 
 #### DayCent
 1. GridMet
+
+#### CMIP Download
+1. Instructions and scripts for downloading and processing CMIP model inputs
